@@ -25,20 +25,20 @@ body{
     position: relative;
 }
 
+/* Colors */
+
+
 /* Header */
 
 #site_header{
     background-image: url(../img/jumbo.png);
     height: 715px;
     background-size: contain;
-    background-repeat: no-repeat;
-    
-    
 }
 
 #logo{
     vertical-align: middle;
-    margin-right: 300px;
+    margin-right: 350px;
 }
 
 nav>ul li{
@@ -46,7 +46,7 @@ nav>ul li{
     color: white;
     font-weight: bold;
     display: inline-block;
-    margin-right: 55px;
+    margin-right: 50px;
 }
 
 nav>ul{
@@ -57,7 +57,6 @@ nav>span{
     background-color: white;
     border-radius: 20px;
     padding: 10px 15px;
-    float: right;
     margin-left: 300px;
 }
 
@@ -74,4 +73,29 @@ nav>span{
 .header-content h2{
     font-size: 3rem;
     margin-bottom: 40px;
+}
+
+.header-content p{
+    line-height: 25px;
+    font-weight: 500;
+}
+
+.download{
+    background-color: white;
+    color: black;
+    display: inline-block;
+    font-weight: 500;
+    border-radius: 25px;
+    padding: 15px 25px;
+    margin-top: 20px;
+}
+
+.header-content span:nth-of-type(2){
+    background-color: black;
+    color: white;
+    margin-left: 20px;
+}
+
+.download-arrow{
+    font-size: rem;
 }
