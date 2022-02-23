@@ -11,7 +11,6 @@ body{
 
 .containers{
     width: 70%;
-    height: 100%;
     margin: 0 auto;    
 }
 
@@ -27,6 +26,10 @@ body{
 
 .top-bot-padding{
     padding: 60px 0px;
+}
+
+.top-bot-padding40{
+    padding: 40px 0px;
 }
 
 .mleft10{
@@ -57,6 +60,9 @@ body{
     height: 1000px;
 }
 
+.height100{
+    height: 100%;
+}
 .align-center{
     text-align: center;
 }
@@ -70,7 +76,7 @@ body{
 #site_header{
     background-image: url(../img/jumbo.png);
     height: 715px;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     padding-top: 30px;
 }
@@ -179,7 +185,12 @@ body{
     margin-top: 25px;
     font-size: 1.1rem;
     line-height: 25px;
+}
 
+.paragraph-width{
+    width: 72%;
+    margin: 25px auto;
+    
 }
 
 .waves{
@@ -188,7 +199,6 @@ body{
 
 .containers-full{
     background-color: rgba(230, 230, 230, 1);
-    
 }
 
 .last-title{
@@ -209,13 +219,21 @@ body{
     height: 400px;
 }
 
+#ita-logo{
+    height: 12px;
+}
+
+.ita-logo{
+    margin: 20px 0px;
+}
+
 .columns{
-    padding-top: 30px;
+    padding-top: 50px;
 }
 
 .col1{
     width: 22%;
-    display: inline-block;
+    float: left;
 }
 
 .col2,
@@ -223,7 +241,11 @@ body{
 .col4,
 .col5{
     width: 19%;
-    display: inline-block;
+    float: left;
+}
+
+.social>i{
+    padding-right: 15px;
 }
 
 footer ul{
@@ -236,4 +258,17 @@ footer ul>li:first-child{
 
 .col1>h3{
     color:rgba(115, 138, 220, 1);
+}
+
+footer hr{
+    margin: 30px 0px;
+}
+
+.signup{
+    font-weight: 500;
+    border-radius: 25px;
+    padding: 15px 25px;
+    position: absolute;
+    top: 20px;
+    right: 10px;
 }

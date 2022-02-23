@@ -13,7 +13,7 @@
 <body>
     
     <header id="site_header">
-        <div class="containers p-relative">
+        <div class="containers height100 p-relative">
             <nav class="clearfix">
                 <div class="logo">
                     <img id="logo-img" src="./img/logo.svg" alt="Logo di Discord">
@@ -52,7 +52,7 @@
             <div class="col-60">
                 <img src="./img/item1.svg" alt="">
             </div>
-            <div class="col-40 mleft10 top-bot-padding">
+            <div class="col-40 mleft10 top-bot-padding40">
                 <h3 class="titles">Un luogo a invito con tutto lo spazio necessario per parlare</h3>
                 <p class="paragraph">I server Discord sono organizzati in canali tematici in cui puoi collaborare, condividere o semplicemente parlare della tua giornata senza instasare una chat di gruppo.</p>
             </div>
@@ -94,7 +94,7 @@
             <div class="containers-full height700">
                 <div class="containers top-bot-padding align-center">
                     <h3 class="titles">Tecnologia affidabile per tenersi in contatto</h3>
-                    <p class="paragraph">Video e audio a bassa latenza ti faranno sentire come se foste tutti nella stessa stanza. Fai ciao in video, guarda gli amici giocare in streaming, o riunitevi in una sessione di disegno con la condivisione shcermo.</p>
+                    <p class="paragraph paragraph-width">Video e audio a bassa latenza ti faranno sentire come se foste tutti nella stessa stanza. Fai ciao in video, guarda gli amici giocare in streaming, o riunitevi in una sessione di disegno con la condivisione shcermo.</p>
                     <img id="img"src="./img/item4-big.svg" alt="">
                     <div class="adventure">
                         <img src="./img/stars.svg" alt="">
@@ -109,12 +109,20 @@
 
 
     <footer id="site_footer">
-        <div class="containers p-relative clearfix">
+        <div class="containers clearfix">
             <div class="columns">
                 <div class="col1">
                     <h3>Il tuo posto per parlare</h3>
-                    <img src="./img/ita.png" alt="">
-                    <span>Italiano</span>
+                    <div class="ita-logo">
+                        <img id="ita-logo" src="./img/ita.png" alt="">
+                        <span>Italiano</span>
+                    </div>
+                    <div class="social">
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
                 </div>
                 <div class="col2">
                     <ul>
@@ -161,9 +169,13 @@
                         <li>Assistenza</li>
                     </ul>
                 </div>
-                <hr>
-                <img id="footer-logo" src="./img/logo.svg" alt="">
             </div>
+        </div>
+
+        <div class="containers p-relative">
+            <hr>
+            <img id="footer-logo" src="./img/logo.svg" alt="">
+            <span class="last-download signup">Registrati</span>
         </div>
     </footer>
     <!-- /#site_footer -->
