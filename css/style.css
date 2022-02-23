@@ -203,3 +203,37 @@ body{
 
 /* Footer */
 
+#site_footer{
+    background-color: rgba(35, 39, 42, 1);
+    color: white;
+    height: 400px;
+}
+
+.columns{
+    padding-top: 30px;
+}
+
+.col1{
+    width: 22%;
+    display: inline-block;
+}
+
+.col2,
+.col3,
+.col4,
+.col5{
+    width: 19%;
+    display: inline-block;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer ul>li:first-child{
+    color:rgba(115, 138, 220, 1);
+}
+
+.col1>h3{
+    color:rgba(115, 138, 220, 1);
+}
