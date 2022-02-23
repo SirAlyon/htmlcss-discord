@@ -4,15 +4,15 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
+    
 }
 
 /* Utility */
 
 .containers{
-    width: 80%;
+    width: 70%;
     height: 100%;
-    margin: 0 auto;
-    padding-top: 30px;
+    margin: 0 auto;    
 }
 
 .clearfix::after {
@@ -25,43 +25,95 @@ body{
     position: relative;
 }
 
+.top-bot-padding{
+    padding: 60px 0px;
+}
+
+.mleft10{
+    margin-left: 10%;
+}
+
+.mright10{
+    margin-right: 10%;
+}
+
+.r-float{
+    float: right;
+}
+
+.space-remove{
+    font-size: 0;
+}
+
+.img-rotate{
+    transform: rotate(180deg);
+}
+
+.height500{
+    height: 500px;
+}
+
+.height700{
+    height: 1000px;
+}
+
+.align-center{
+    text-align: center;
+}
 /* Colors */
 
 
 /* Header */
 
+
+
 #site_header{
     background-image: url(../img/jumbo.png);
     height: 715px;
     background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 30px;
 }
 
-#logo{
+.logo{
+    float: left;
+    width: 25%;
+}
+
+#logo-img{
+    height: 40px;
     vertical-align: middle;
-    margin-right: 350px;
 }
 
-nav>ul li{
+.menu{
+    width: 50%;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu li{
     list-style: none;
     color: white;
     font-weight: bold;
     display: inline-block;
-    margin-right: 50px;
 }
 
-nav>ul{
-    display: inline-block;
+.login{
+    width: 25%;
+    float: right;
 }
 
-nav>span{
+.login>span{
     background-color: white;
+    float: right;
     border-radius: 20px;
     padding: 10px 15px;
-    margin-left: 300px;
 }
 
 .header-content{
-    width: 45%;
+    width: 60%;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -71,13 +123,14 @@ nav>span{
 }
 
 .header-content h2{
-    font-size: 3rem;
+    font-size: 3.5rem;
     margin-bottom: 40px;
 }
 
 .header-content p{
     line-height: 25px;
     font-weight: 500;
+    font-size: 1.15rem;
 }
 
 .download{
@@ -90,12 +143,63 @@ nav>span{
     margin-top: 20px;
 }
 
+
 .header-content span:nth-of-type(2){
     background-color: black;
     color: white;
     margin-left: 20px;
 }
 
-.download-arrow{
-    font-size: rem;
+
+/* Main */
+
+.col-40,
+.col-60{
+    display: inline-block;
 }
+
+.col-60{
+    width: 55%;
+    float: left;
+}
+
+.col-40{
+    width: 25%;
+    float: left;
+}
+
+.titles{
+    font-size: 2.5rem;
+    line-height: 50px;
+
+}
+
+.paragraph{
+    font-weight: 500;
+    margin-top: 25px;
+    font-size: 1.1rem;
+    line-height: 25px;
+
+}
+
+.waves{
+    filter: opacity(0.1);
+}
+
+.containers-full{
+    background-color: rgba(230, 230, 230, 1);
+    
+}
+
+.last-title{
+    font-size: 1.6rem;
+}
+
+.last-download{
+    background-color: rgba(142, 161, 225, 1);
+    color: white;
+    font-size: 1rem;
+}
+
+/* Footer */
+
